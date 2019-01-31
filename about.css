@@ -1,0 +1,86 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#LayerMenu1
+{
+   float: left;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+#LayerMenu1 li
+{
+   float: left;
+   margin: 0;
+   padding: 0;
+   position: relative;
+}
+#LayerMenu1 li a
+{
+   float: left;
+}
+#LayerMenu1 li .layer
+{
+   display: none;
+   float: left;
+   left: 0;
+   position: absolute;
+   top: 0;
+   border: 1px solid #CCCCCC;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#LayerMenu1 .button
+{
+   cursor: pointer;
+   color: #333333;
+   background-color: #FFFFFF;
+   border: 1px solid #CCCCCC;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   margin: 0 1px 0 0;
+   padding: 4px 20px 4px 8px;
+   position: relative;
+   text-align: left;
+   text-decoration: none !important;
+}
+#LayerMenu1 .button:hover
+{
+   color: #FFFFFF;
+   background-color: #337AB7;
+   border: 1px solid #2E6DA4;
+}
+#LayerMenu1 li:last-child .button
+{
+   margin-right: 0;
+}
+#LayerMenu1 .arrow-down 
+{
+   border-top: 4px solid #333333;
+   border-right: 4px solid transparent;
+   border-left: 4px solid transparent;
+   border-bottom: 0 dotted;
+   position: absolute;
+   top: 50%;
+   right: 4px;
+   left: auto;
+   width: 0;
+   height: 0;
+   margin-top: -2px;
+   margin-left: 0;
+   vertical-align: middle;
+}
+#LayerMenu1 li a:hover .arrow-down
+{ 
+   border-top-color: #FFFFFF;
+}
